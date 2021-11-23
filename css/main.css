@@ -1,12 +1,13 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  background: #191919;
+  /*  background: #191919;  */
   font-family: 'Roboto Mono', monospace;
 }
 
 .container {
   padding: 0 7%;
+  background: #191919;
 }
 
 .main__section {
