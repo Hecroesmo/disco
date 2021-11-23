@@ -1,7 +1,7 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  /*  background: #191919;  */
+  background: #191919;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -10,9 +10,17 @@ body {
   background: #191919;
 }
 
-.main__section {
-  padding-top: 3rem;
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.main__info {
+  box-sizing: border-box;
+  padding-top: 2rem;
   padding-bottom: 4rem;
+  order: 2;
 }
 
 .main__paragraph {
@@ -24,7 +32,7 @@ body {
 .main__title {
   text-transform: capitalize;
   color: #59E0EB;
-  font-size: 7vh;
+  font-size: 6vh;
   font-family: 'Major Mono Display', monospace;
   margin-bottom: 1.5em;
   line-height: 1.5;
@@ -32,13 +40,44 @@ body {
 
 .main__link {
   background-image: linear-gradient(90deg, #9C37B9, #59E0EB);
-  width: 50px;
-  height: 25px;
+  width: 3.125em;
+  height: 1.5em;
   color: #fff;
   text-decoration: none;
   text-transform: capitalize;
-  padding: 15px 30px;
+  padding: .9em 1.8em;
   border-radius: 5px;
   font-family: 'Roboto Mono', monospace;
-  font-size: 24px;
+  font-size: 2.5vh;
+}
+
+.main--enphasis {
+  box-sizing: border-box;
+  border-top: 5px solid #59E0EB;
+  border-bottom: 5px solid #9C37B9;
+}
+
+@media (min-width: 768px) {
+  .main {
+    flex-direction: row;
+    padding-top: 2.5em;
+  }
+
+  .main__info {
+    width: 45%;
+  }
+
+  .main__title {
+    font-size: 7vh;
+  }
+
+  .main--enphasis {
+    width: 45%;
+    border: none;
+    padding: 0;
+    margin: 0 7%;
+
+    border-left: 5px solid #59E0EB;
+    border-right: 5px solid #9C37B9;
+  }
 }
