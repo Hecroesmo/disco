@@ -34,7 +34,7 @@
 @media (min-width: 1200px) {
   .footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -46,7 +46,11 @@
     order: -2;
   }
 
+  .footer__local i img {
+    margin-right: .4em;
+  }
+
   .copyright {
-    order: 2;
+    order: -1;
   }
 }
