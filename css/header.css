@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: space-between;
   color: #fff;
-  padding-top: 1.5em;
+  padding-top: 3em;
   padding-bottom: 1em;
   background: #191919;
   /*  border: 1px solid #000;   */
@@ -82,20 +82,6 @@
     margin-top: 5px;
   }
 }
-
-/*  @media (min-width: 543px) {
-  .header {
-    padding-right: 2rem;
-    padding-left: .6rem;
-  }
-}  */
-
-/*  @media (min-width: 768px) {
-  .header {
-    padding-right: 3.2rem;
-    padding-left: 1.8rem;
-  }
-}  */
 
 @media (min-width: 1200px) {
   .header__menu__btn {
