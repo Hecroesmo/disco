@@ -6,7 +6,8 @@ body {
 }
 
 .container {
-  padding: 0 7%;
+  padding-left: 7%;
+  padding-right: 7%;
   background: #191919;
 }
 
