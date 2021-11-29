@@ -4,25 +4,23 @@
   justify-content: space-between;
   color: #fff;
   padding-top: 2em;
-  padding-bottom: 1em;
-  background: #191919;
-  /*  border: 1px solid #000;   */
-  padding-left: calc(7% - 25px);
+  position: fixed;
+  right: 0;
+  left: 0;
 }
 
-/*  .header__title {
+.header__title {
    border: 1px solid #fff;
-}  */
+}
 
 .header__title__brand {
-  /*  border: 2px solid #fff; */
-  /*  padding-left: 5px;  */
   width: 8rem;
   height: auto;
 }
 
 .header__menu {
   margin-top: 25px;
+  right: 0;
   /*  border: 1px solid #000;   */
 }
 
