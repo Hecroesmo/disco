@@ -1,0 +1,73 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.login {
+  width: 100%;
+  padding: 2em 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  color: #fff;
+  background: #191919;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.login__form {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.login__inputs {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: .5em;
+}
+
+.login__input {
+  display: block;
+  width: 100%;
+  height: 25px;
+  border: 1px solid #9C37B9;
+  border-radius: 5px;
+}
+
+.login__input:focus-visible {
+  outline: 2px solid #59E0EB;
+}
+
+.login__input[type="submit"] {
+  width: initial;
+  height: initial;
+
+  margin: 1em 0;
+  padding: .5em 1.4em;
+  border: none;
+}
+
+.login__link {
+  color: #59E0EB;
+  text-decoration: none;
+}
+
+/* @media (min-width: 768px) {
+  body {
+    background: url(../img/performers-gd074a676f_1920.jpg);
+    background-size: cover;
+  }
+} */

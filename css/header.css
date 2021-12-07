@@ -9,9 +9,9 @@
   left: 0;
 }
 
-.header__title {
+/*  .header__title {
    border: 1px solid #fff;
-}
+} */
 
 .header__title__brand {
   width: 8rem;
@@ -80,6 +80,16 @@
     margin-top: 5px;
   }
 }
+
+/* @media (min-width: 768px) {
+  .main {
+    margin-top: 10em;
+  }
+
+  .header {
+    padding-bottom: 1em;
+  }
+} */
 
 @media (min-width: 1200px) {
   .header__menu__btn {
