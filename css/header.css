@@ -51,6 +51,13 @@
 .header__menu-item a {
   color: #fff;
   text-decoration: none;
+  transition: 1s padding;
+}
+
+.header__menu-item:not(.header__menu-item-btn) a:hover,
+.header__menu-item:not(.header__menu-item-btn) a:active {
+  border-top: 3px solid #9C37B9;
+  padding-top: .5em;
 }
 
 .header__menu-item-btn a {
