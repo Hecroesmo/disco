@@ -51,13 +51,12 @@
 .header__menu-item a {
   color: #fff;
   text-decoration: none;
-  transition: 1s padding;
+  transition: 1s color;
 }
 
 .header__menu-item:not(.header__menu-item-btn) a:hover,
 .header__menu-item:not(.header__menu-item-btn) a:active {
-  border-top: 3px solid #9C37B9;
-  padding-top: .5em;
+  color: #9C37B9;
 }
 
 .header__menu-item-btn a {
@@ -71,11 +70,24 @@
   background-image: linear-gradient(90deg, #9C37B9, #59E0EB);
   border-radius: 5px;
   margin-left: 2em;
+  transition: 1s background-image ease;
+}
+
+.header__menu-item:nth-child(5) a:hover,
+.header__menu-item:nth-child(5) a:active {
+  background-image: linear-gradient(90deg, #59E0EB, #9C37B9);
 }
 
 .header__menu-item:nth-child(6) a {
   border: 2px solid #59E0EB;
   color: #59E0EB;
+  transition: 1s color, 1s border-color;
+}
+
+.header__menu-item:nth-child(6) a:hover,
+.header__menu-item:nth-child(6) a:active {
+  border: 2px solid #9C37B9;
+  color: #9C37B9;
 }
 
 @media (max-width: 230px) {

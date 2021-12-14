@@ -19,7 +19,7 @@ body {
 
 .main__info {
   box-sizing: border-box;
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 4rem;
   order: 2;
 }
@@ -50,6 +50,12 @@ body {
   border-radius: 5px;
   font-family: 'Roboto Mono', monospace;
   font-size: 2.5vh;
+  transition: 1s background-image ease;
+}
+
+.main__link:hover,
+.main__link:active {
+  background-image: linear-gradient(90deg, #59E0EB, #9C37B9);
 }
 
 .main--enphasis {
@@ -66,6 +72,7 @@ body {
 
   .main__info {
     width: 45%;
+    padding-top: 6rem;
   }
 
   .main__title {
@@ -77,6 +84,7 @@ body {
     border: none;
     padding: 0;
     margin: 0 7%;
+    margin-top: 7rem;
 
     border-left: 5px solid #59E0EB;
     border-right: 5px solid #9C37B9;
